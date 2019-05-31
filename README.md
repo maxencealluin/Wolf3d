@@ -13,8 +13,21 @@ The goal of this project is to create a raycasting engine from scratch. The proj
 The game responds to keyboard and mouse input and places the player in a labyrinth that is defined in the file passed as argument. The player must wander in the labyrinth and find the end which will trigger the win screen.
 Sounds and musics are implemented through SDL_mixer.
 
+Main features:
+* Raycasting engine
+* Skybox
+* Collisions (can 'slide' on walls if an axis is blockde)
+* Can look around, sprint ('shift'), open doors ('e')
+* Map of level ('m')
+* Basic animation (fire gun)
+* Basic UI (only aesthetic)
+* Different zones for different set of textures
+* Real-time, 60 fps on our CPU
+
 ## Usage
 `./wolf3d <map file>`
+
+Map file must follow a strict syntax detailed in the format_map file.
 
 ## Installation
 First you have to install the SDL Library, the following command will download the sources and install it:<br/>
