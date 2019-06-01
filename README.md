@@ -14,7 +14,7 @@ The game responds to keyboard and mouse input and places the player in a labyrin
 Sounds and musics are implemented through SDL_mixer.
 
 Main features:
-* Raycasting engine
+* Raycasting engine with basic shading
 * Skybox
 * Collisions (can 'slide' on walls if an axis is blockde)
 * Can look around, sprint ('shift'), open doors ('e')
